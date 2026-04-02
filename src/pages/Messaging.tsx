@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import { messagesAPI, Message } from '../api';
+import { messagesAPI, type Message } from '../api';
 
 export default function Messaging() {
   const { matchId } = useParams<{ matchId: string }>();

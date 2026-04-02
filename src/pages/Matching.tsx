@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { matchingAPI, Match } from '../api';
+import { matchingAPI, type Match } from '../api';
 
 export default function Matching() {
   const [matches, setMatches] = useState<Match[]>([]);
